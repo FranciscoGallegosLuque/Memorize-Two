@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A17D28E02D9758E2006C147E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17D28C72D9758E1006C147E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17D28CE2D9758E1006C147E;
+			remoteInfo = "Memorize Two";
+		};
+		A17D28EA2D9758E2006C147E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17D28C72D9758E1006C147E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17D28CE2D9758E1006C147E;
+			remoteInfo = "Memorize Two";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A17D28CF2D9758E1006C147E /* Memorize Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memorize Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17D28DF2D9758E2006C147E /* Memorize TwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorize TwoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17D28E92D9758E2006C147E /* Memorize TwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorize TwoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A17D28D12D9758E1006C147E /* Memorize Two */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Memorize Two";
+			sourceTree = "<group>";
+		};
+		A17D28E22D9758E2006C147E /* Memorize TwoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Memorize TwoTests";
+			sourceTree = "<group>";
+		};
+		A17D28EC2D9758E2006C147E /* Memorize TwoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Memorize TwoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17D28CC2D9758E1006C147E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D28DC2D9758E2006C147E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D28E62D9758E2006C147E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17D28C62D9758E1006C147E = {
+			isa = PBXGroup;
+			children = (
+				A17D28D12D9758E1006C147E /* Memorize Two */,
+				A17D28E22D9758E2006C147E /* Memorize TwoTests */,
+				A17D28EC2D9758E2006C147E /* Memorize TwoUITests */,
+				A17D28D02D9758E1006C147E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17D28D02D9758E1006C147E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17D28CF2D9758E1006C147E /* Memorize Two.app */,
+				A17D28DF2D9758E2006C147E /* Memorize TwoTests.xctest */,
+				A17D28E92D9758E2006C147E /* Memorize TwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17D28CE2D9758E1006C147E /* Memorize Two */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17D28F32D9758E2006C147E /* Build configuration list for PBXNativeTarget "Memorize Two" */;
+			buildPhases = (
+				A17D28CB2D9758E1006C147E /* Sources */,
+				A17D28CC2D9758E1006C147E /* Frameworks */,
+				A17D28CD2D9758E1006C147E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A17D28D12D9758E1006C147E /* Memorize Two */,
+			);
+			name = "Memorize Two";
+			packageProductDependencies = (
+			);
+			productName = "Memorize Two";
+			productReference = A17D28CF2D9758E1006C147E /* Memorize Two.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17D28DE2D9758E2006C147E /* Memorize TwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17D28F62D9758E2006C147E /* Build configuration list for PBXNativeTarget "Memorize TwoTests" */;
+			buildPhases = (
+				A17D28DB2D9758E2006C147E /* Sources */,
+				A17D28DC2D9758E2006C147E /* Frameworks */,
+				A17D28DD2D9758E2006C147E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17D28E12D9758E2006C147E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A17D28E22D9758E2006C147E /* Memorize TwoTests */,
+			);
+			name = "Memorize TwoTests";
+			packageProductDependencies = (
+			);
+			productName = "Memorize TwoTests";
+			productReference = A17D28DF2D9758E2006C147E /* Memorize TwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A17D28E82D9758E2006C147E /* Memorize TwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17D28F92D9758E2006C147E /* Build configuration list for PBXNativeTarget "Memorize TwoUITests" */;
+			buildPhases = (
+				A17D28E52D9758E2006C147E /* Sources */,
+				A17D28E62D9758E2006C147E /* Frameworks */,
+				A17D28E72D9758E2006C147E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17D28EB2D9758E2006C147E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A17D28EC2D9758E2006C147E /* Memorize TwoUITests */,
+			);
+			name = "Memorize TwoUITests";
+			packageProductDependencies = (
+			);
+			productName = "Memorize TwoUITests";
+			productReference = A17D28E92D9758E2006C147E /* Memorize TwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17D28C72D9758E1006C147E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A17D28CE2D9758E1006C147E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A17D28DE2D9758E2006C147E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A17D28CE2D9758E1006C147E;
+					};
+					A17D28E82D9758E2006C147E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A17D28CE2D9758E1006C147E;
+					};
+				};
+			};
+			buildConfigurationList = A17D28CA2D9758E1006C147E /* Build configuration list for PBXProject "Memorize Two" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17D28C62D9758E1006C147E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A17D28D02D9758E1006C147E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17D28CE2D9758E1006C147E /* Memorize Two */,
+				A17D28DE2D9758E2006C147E /* Memorize TwoTests */,
+				A17D28E82D9758E2006C147E /* Memorize TwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17D28CD2D9758E1006C147E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D28DD2D9758E2006C147E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D28E72D9758E2006C147E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17D28CB2D9758E1006C147E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D28DB2D9758E2006C147E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D28E52D9758E2006C147E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17D28E12D9758E2006C147E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17D28CE2D9758E1006C147E /* Memorize Two */;
+			targetProxy = A17D28E02D9758E2006C147E /* PBXContainerItemProxy */;
+		};
+		A17D28EB2D9758E2006C147E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17D28CE2D9758E1006C147E /* Memorize Two */;
+			targetProxy = A17D28EA2D9758E2006C147E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A17D28F12D9758E2006C147E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A17D28F22D9758E2006C147E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17D28F42D9758E2006C147E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize Two/Preview Content\"";
+				DEVELOPMENT_TEAM = 298TZ2LNQ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gallegosluque.francisco.Memorize-Two";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A17D28F52D9758E2006C147E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize Two/Preview Content\"";
+				DEVELOPMENT_TEAM = 298TZ2LNQ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gallegosluque.francisco.Memorize-Two";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A17D28F72D9758E2006C147E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 298TZ2LNQ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gallegosluque.francisco.Memorize-TwoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorize Two.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memorize Two";
+			};
+			name = Debug;
+		};
+		A17D28F82D9758E2006C147E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 298TZ2LNQ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gallegosluque.francisco.Memorize-TwoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorize Two.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memorize Two";
+			};
+			name = Release;
+		};
+		A17D28FA2D9758E2006C147E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 298TZ2LNQ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gallegosluque.francisco.Memorize-TwoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memorize Two";
+			};
+			name = Debug;
+		};
+		A17D28FB2D9758E2006C147E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 298TZ2LNQ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gallegosluque.francisco.Memorize-TwoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memorize Two";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17D28CA2D9758E1006C147E /* Build configuration list for PBXProject "Memorize Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17D28F12D9758E2006C147E /* Debug */,
+				A17D28F22D9758E2006C147E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17D28F32D9758E2006C147E /* Build configuration list for PBXNativeTarget "Memorize Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17D28F42D9758E2006C147E /* Debug */,
+				A17D28F52D9758E2006C147E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17D28F62D9758E2006C147E /* Build configuration list for PBXNativeTarget "Memorize TwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17D28F72D9758E2006C147E /* Debug */,
+				A17D28F82D9758E2006C147E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17D28F92D9758E2006C147E /* Build configuration list for PBXNativeTarget "Memorize TwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17D28FA2D9758E2006C147E /* Debug */,
+				A17D28FB2D9758E2006C147E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17D28C72D9758E1006C147E /* Project object */;
+}
