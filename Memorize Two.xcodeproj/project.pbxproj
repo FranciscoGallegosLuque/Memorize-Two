@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A18743FF2DC169A8007F05EA /* Assignment1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18743FE2DC169A8007F05EA /* Assignment1View.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A17D28E02D9758E2006C147E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		A17D28CF2D9758E1006C147E /* Memorize Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memorize Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17D28DF2D9758E2006C147E /* Memorize TwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorize TwoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17D28E92D9758E2006C147E /* Memorize TwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorize TwoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18743FE2DC169A8007F05EA /* Assignment1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		A17D28C62D9758E1006C147E = {
 			isa = PBXGroup;
 			children = (
+				A18743FE2DC169A8007F05EA /* Assignment1View.swift */,
 				A17D28D12D9758E1006C147E /* Memorize Two */,
 				A17D28E22D9758E2006C147E /* Memorize TwoTests */,
 				A17D28EC2D9758E2006C147E /* Memorize TwoUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18743FF2DC169A8007F05EA /* Assignment1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
