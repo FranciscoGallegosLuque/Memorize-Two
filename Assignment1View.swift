@@ -73,7 +73,7 @@ struct Assignment1View: View {
        
 struct Assignment1CardView: View {
     let content: String
-    @State var isFaceUp: Bool = true
+    @State var isFaceUp: Bool = false
     
     var body: some View {
         ZStack(content: {
