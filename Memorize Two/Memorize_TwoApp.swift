@@ -14,6 +14,7 @@ struct Memorize_TwoApp: App {
     var body: some Scene {
         WindowGroup {
             EmojiMemoryGameView(viewModel: game)
+            
         }
     }
 }

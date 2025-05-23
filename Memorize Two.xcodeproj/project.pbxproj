@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A14763A62DCEF97600BAA7A6 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14763A52DCEF97600BAA7A6 /* Pie.swift */; };
+		A1F7393F2DD3D8CB00D87BD4 /* FlyingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7393E2DD3D8CB00D87BD4 /* FlyingNumber.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A17D28E02D9758E2006C147E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A14763A52DCEF97600BAA7A6 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		A17D28CF2D9758E1006C147E /* Memorize Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memorize Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17D28DF2D9758E2006C147E /* Memorize TwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorize TwoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17D28E92D9758E2006C147E /* Memorize TwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorize TwoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F7393E2DD3D8CB00D87BD4 /* FlyingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		A17D28C62D9758E1006C147E = {
 			isa = PBXGroup;
 			children = (
+				A1F7393E2DD3D8CB00D87BD4 /* FlyingNumber.swift */,
+				A14763A52DCEF97600BAA7A6 /* Pie.swift */,
 				A17D28D12D9758E1006C147E /* Memorize Two */,
 				A17D28E22D9758E2006C147E /* Memorize TwoTests */,
 				A17D28EC2D9758E2006C147E /* Memorize TwoUITests */,
@@ -236,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14763A62DCEF97600BAA7A6 /* Pie.swift in Sources */,
+				A1F7393F2DD3D8CB00D87BD4 /* FlyingNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
